@@ -3034,7 +3034,9 @@ fi
 #
 #
 %changelog
-* Tue Jun 14 2022 Justin M. Forbes <jforbes@fedoraproject.org> [5.18.4-100]
+* Wed Jun 15 2022 Justin M. Forbes <jforbes@fedoraproject.org> [5.18.4-100]
+- Turn E1000 back on correctly (Justin M. Forbes)
+- Turn E1000 back on (Justin M. Forbes)
 - Changelog update for rebase (Justin M. Forbes)
 
 * Tue Jun 14 2022 Justin M. Forbes <jforbes@fedoraproject.org> [5.18.4-0]
