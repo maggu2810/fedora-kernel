@@ -1,3 +1,5 @@
+%define pe_signing_cert maggu2810
+
 # All Global changes to build and install go here.
 # Per the below section about __spec_install_pre, any rpm
 # environment changes that affect %%install need to go
@@ -121,7 +123,7 @@ Summary: The Linux kernel
 #  to build the base kernel using the debug configuration. (Specifying
 #  the --with-release option overrides this setting.)
 %define debugbuildsenabled 1
-# define buildid .local
+%define buildid .maggu2810
 %define specversion 5.18.13
 %define patchversion 5.18
 %define pkgrelease 200
